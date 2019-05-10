@@ -1,0 +1,87 @@
+<section class="shop">
+  <div class="head" fxLayout.xs="column" fxLayoutWrap fxLayoutAlign="center" >
+    <mat-card class="head-back" fxFlex="45%;" fxFlex.sm="100%">
+     
+    </mat-card>
+    
+  </div>
+  <div class="head-name" fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+    <h2>SHOPING</h2>
+  </div>
+  
+     </section>
+     <div class="container-fluid">
+     <div class="rooms-home-display" fxLayout.xs="column" fxLayoutGap="1%"  fxFlexLayoutWrap fxLayoutAlign="center center">
+        <mat-card  fxFlex="30" fxFlex.sm="80">
+            <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+              
+                  <mat-nav-list class="sidenav-list">
+                      
+                        <a mat-list-item routerLink="/apparel" (click)="onToggleClose()">
+                          <span>Garments</span>
+                        </a>
+                        <a mat-list-item routerLink="/bath" (click)="onToggleClose()">
+                          <span>Bath Accessories</span>
+                        </a>
+                        <a mat-list-item routerLink="/kitchen" (click)="onToggleClose()">
+                          <span>Kitchen Accessories</span>
+                        </a>
+                        <a mat-list-item routerLink="/food" (click)="onToggleClose()">
+                          <span>Food items</span>
+                        </a>
+                      
+                    </mat-nav-list>
+              
+            </mat-card-header>
+            
+          </mat-card>  
+      <mat-card class="mat-img single" fxFlex="30" fxFlex.sm="80">
+          <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+            <h2>Garments</h2>
+          </mat-card-header>
+          <mat-card-actions fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+            <button mat-raised-button color="primary" mat-raised-button
+            matTooltip="Garments Shopping"
+             data-toggle="modal" data-target="#myModal1" routerLink="/apparel">Garments </button>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="bath" fxFlex="30" fxFlex.sm="80">
+            <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+              <h2>Bath Accessories</h2>
+            </mat-card-header>
+            <mat-card-actions fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+              <button mat-raised-button color="primary" mat-raised-button
+            matTooltip="Bath Accessories Shopping"
+            data-toggle="modal" data-target="#myModal2"routerLink="/bath" >Bath Accessories</button>
+            </mat-card-actions>
+          </mat-card>
+          
+      </div>
+      <div class="rooms-home-display" fxLayout.xs="column" fxLayoutGap="1%"  fxFlexLayoutWrap fxLayoutAlign="center center">
+          <mat-card  fxFlex="30" fxFlex.sm="80">
+              
+              
+            </mat-card>  
+        <mat-card class="kitchen" fxFlex="30" fxFlex.sm="80">
+            <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+              <h2>Kitchen Accessories</h2>
+            </mat-card-header>
+            <mat-card-actions fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+              <button mat-raised-button color="primary" mat-raised-button
+              matTooltip="Kitchen Accessories Shopping"
+              data-toggle="modal" data-target="#myModal1" routerLink="/kitchen">Kitchen Accessories</button>
+            </mat-card-actions>
+          </mat-card>
+          <mat-card class="mat-img twin" fxFlex="30" fxFlex.sm="80">
+              <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+                <h2>Food items</h2>
+              </mat-card-header>
+              <mat-card-actions fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+                <button mat-raised-button color="primary" mat-raised-button
+              matTooltip="Food itam Shopping"
+               data-toggle="modal" data-target="#myModal2" routerLink="/food" >Food items</button>
+              </mat-card-actions>
+            </mat-card>
+            
+        </div>
+      </div>

@@ -1,0 +1,137 @@
+.carousel-inner{
+    height:700px;
+    width:auto; margin:0 auto;
+    position: relative;
+ }
+ img{
+     position:absolute;
+     max-width:100%;
+ }
+ /* .my-carousel{
+     position: absolute;
+     top:0%;
+ } */
+ .thailand {
+    transform: translate(-50%, -180%);
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  .thailand h3 {
+    -webkit-text-fill-color: transparent;
+    background: url(../../assets/imgs/goa-bg.jpg)bottom right repeat;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-size: 200px;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0.09em;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    top:58%;  
+  }
+  .head-name {
+  transform: translate(-50%, -240%);
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.head-name h2 {
+  -webkit-text-fill-color: transparent;
+  background: url(../../assets/imgs/goa-bg.jpg)bottom right repeat;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-stretch: normal;
+  font-size: 100px;
+  font-family: Rubik, sans-serif;
+  letter-spacing: 0.09em;
+  font-weight: 500;
+  position: relative;
+  left: 50%;
+  top:50%;  
+}
+.card{
+  width: 80%;
+  text-align: center;
+  
+  }
+  .mat-img{
+      margin: 10px;
+  }
+  .single{
+      background: url('../../assets/imgs/shop3.jpg')center center no-repeat;
+      background-size: cover;
+      min-height: 400px;
+     }
+     .twin{
+      background: url('../../assets/imgs/food1.jpg')center center no-repeat;
+      background-size: cover;
+      min-height: 400px;
+     }
+     .bath{
+      background: url('../../assets/imgs/bath6.jpg')center center no-repeat;
+      background-size: cover;
+      min-height: 400px;
+     }
+     .kitchen{
+      background: url('../../assets/imgs/kitchen1.jpg')center center no-repeat;
+      background-size: cover;
+      min-height: 400px;
+     }
+
+     .rooms-home-display mat-card-actions {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .rooms-home-display mat-card-header {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+      color: #000000;
+      font-size: 34px;
+      height: 53px;
+      width: 100%;
+      
+    }
+    .mat-card{
+      padding:0;
+    }
+    h2{
+      background: rgba(255, 248, 225,.5);
+    }
+    .shop{
+      position: relative;
+      text-align: center;
+  }
+  .head mat-card {
+      min-width:100%;;
+      position: relative;
+      text-align: center;
+    }
+    .head-back {
+      background: url(../../assets/imgs/1.jpg)no-repeat;
+      background-size:100% 100%;
+      height: 200px;
+    }
+  .mat-list-base .mat-list-item {
+      font-size: 21px;
+  } 
+  .carousel-control-next, .carousel-control-prev{
+    height: 700px;
+  }
+  
+  .container-fluid{
+  margin-top: -270px;
+}
+.mat-list-base {
+  margin-top: -206px;
+  }
+  

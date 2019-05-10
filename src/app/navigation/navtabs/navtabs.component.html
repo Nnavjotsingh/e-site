@@ -1,0 +1,51 @@
+
+<div class="container">
+  <div class="navtabs-container nwev">
+    <nav mat-tab-nav-bar mat-tab-nav-bar fxFlex fxLayout fxLayoutAlign="center center">
+      <!-- <button mat-icon-button (click)="onToggleOpenSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button> -->
+      
+      <a mat-tab-link routerLink="/"
+       routerLinkActive #home="routerLinkActive"
+       [active]="home.isActive">
+       <mat-icon mat-raised-button
+       matTooltip="Home">home</mat-icon>
+       </a>
+  
+       <!-- <a mat-tab-link routerLink="/shop"
+       routerLinkActive #shop="routerLinkActive"
+       [active]="shop.isActive">
+       <mat-icon mat-raised-button
+       matTooltip="Shopping">shopping_basket</mat-icon>
+       </a> -->
+  
+       
+       <!-- <a mat-tab-link routerLink="/offer"
+       routerLinkActive #offer="routerLinkActive"
+       [active]="offer.isActive">
+       <mat-icon mat-raised-button
+       matTooltip="Offers">loyalty</mat-icon>
+      
+       </a> -->
+
+       <a mat-tab-link routerLink="/lognin"
+       routerLinkActive #lognin="routerLinkActive"
+       [active]="lognin.isActive">
+       <mat-icon mat-raised-button
+       matTooltip="Account">person</mat-icon>
+       </a> 
+       
+       <a mat-tab-link routerLink="/cart"
+       routerLinkActive #cart="routerLinkActive"
+       [active]="cart.isActive">
+       <mat-icon mat-raised-button
+       matTooltip="Carts">shopping_cart</mat-icon>
+       </a> 
+      
+      
+
+    </nav>
+
+</div>
+</div>

@@ -1,0 +1,32 @@
+.toolbar-flex{
+  flex: 1 0.5 auto;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+ /* .carousel-inner{
+  height:700px;
+  width:auto; margin:0 auto;
+  position: relative;
+}
+img{
+   position:absolute;
+   max-width:100%;
+}     */
+.nwev{
+position: absolute;
+top:5%;
+    z-index: 1;
+    border: none;
+    left: 35%;
+    
+  }
+  mat-icon{
+    color: blue;
+    font-size: 40px;
+  }
+  .mat-tab-link {
+    opacity: none;
+  }
